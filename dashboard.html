@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>llama. for Teams</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Lato" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+  <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light shadow-sm">
+
+      <a class="navbar-brand francois" href="#">
+        <img src="./assets/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        llama.
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Report</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="icon bell text-red"></span>
+            </a>
+          </li>
+          <li class="nav-item divide">
+            <button class="btn btn-secondary txt-sm lato my-2 my-sm-0" type="submit">
+              + Create
+            </button>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link francois text-dark" href="#">
+              <span class="icon user-alt"></span> Cheryl
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon bar"></span>
+      </button>
+
+    </nav>
+
+  <!-- secondary nav -->
+
+      <div class="container-fluid no-padding btn-group btn-group-toggle" data-toggle="buttons">
+        <div class="col border-r no-padding">
+          <button class="btn btn-block bg-blue text-light active">
+              <i class="fa fa-arrow-down"></i> Requests
+          </button>
+        </div>
+
+        <div class="col border-r no-padding">
+          <button class="btn btn-block bg-ltblue text-light">
+              <i class="fa fa-arrow-up"></i> Responses
+          </button>
+        </div>
+
+        <div class="col no-padding">
+          <button class="btn btn-block bg-ltblue text-light">
+              <i class="fa fa-list"></i> Upcoming
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+
+  <!-- body content -->
+    <div class="container section">
+      <div class="row">
+        <div class="col">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="input-box form-control mr-sm-2" type="search" placeholder="Search events" aria-label="Search">
+          </form>
+        </div>
+
+        <div class="col right dropdown">
+          <button class="input-box btn float-right btn-form dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sort by: Date
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-6 no-l-padding">
+          <div class="card module">
+            <div class="card-body">
+              <h5 class="card-title chart-bar icon">&#160; Trend</h5>
+              <img class="img-fluid graph" src="./assets/graph1.svg">
+              <a href="#" class="float-right text-blue">
+                 Details &#160; <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 no-r-padding">
+          <div class="card module">
+            <div class="card-body">
+              <h5 class="card-title chart-pie icon">&#160; Demand</h5>
+              <img class="img-fluid graph" src="./assets/graph2.svg">
+              <a href="#" class="float-right text-blue">
+                 Details &#160; <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container section">
+      <div class="section-header row l-padding">
+        TODAY
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card module-sm">
+            <div class="card-body">
+              <h5 class="card-title">Finance Annual Lunch</h5>
+              <h6 class="card-subtitle mb-2 text-muted sub-text">12:00-1:00pm</h6>
+              <p class="card-text description">Some quick example text to explain the gist of the event request content.</p>
+              <p class="card-text icon users">14 &#160;</p>
+              <a href="#" class="card-link link-text">Create Order</a>
+              <a href="#" class="card-link link-text">Add Poll</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card module-sm">
+            <div class="card-body">
+              <h5 class="card-title">Sales Kickoff Meeting</h5>
+              <h6 class="card-subtitle mb-2 text-muted sub-text">12:00-1:00pm</h6>
+              <p class="card-text description">Some quick example text to explain the gist of the event request content.</p>
+              <p class="card-text icon users">20 &#160;</p>
+              <a href="#" class="card-link link-text">Create Order</a>
+              <a href="#" class="card-link link-text">Add Poll</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card module-sm">
+            <div class="card-body">
+              <h5 class="card-title">New Employee Welcome Lunch</h5>
+              <h6 class="card-subtitle mb-2 text-muted sub-text">12:00-1:00pm</h6>
+              <p class="card-text description">Some quick example text to explain the gist of the event request content.</p>
+              <p class="card-text icon users">8 &#160;</p>
+              <a href="#" class="card-link link-text">Create Order</a>
+              <a href="#" class="card-link link-text">Add Poll</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="container section">
+      <div class="section-header row l-padding">
+        THIS WEEK
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card module-sm">
+            <div class="card-body">
+              <h5 class="card-title">Marketing Outings</h5>
+              <h6 class="card-subtitle mb-2 text-muted sub-text">12:00-1:00pm</h6>
+              <p class="card-text description">Some quick example text to explain the gist of the event request content.</p>
+              <p class="card-text icon users">14 &#160;</p>
+              <a href="#" class="card-link link-text">Create Order</a>
+              <a href="#" class="card-link link-text">Add Poll</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card module-sm">
+            <div class="card-body">
+              <h5 class="card-title">Product Launch Celebration</h5>
+              <h6 class="card-subtitle mb-2 text-muted sub-text">12:00-1:00pm</h6>
+              <p class="card-text description">Some quick example text to explain the gist of the event request content.</p>
+              <p class="card-text icon users">20 &#160;</p>
+              <a href="#" class="card-link link-text">Create Order</a>
+              <a href="#" class="card-link link-text">Add Poll</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card module-sm">
+            <div class="card-body">
+              <h5 class="card-title">Quarterly Board Meeting</h5>
+              <h6 class="card-subtitle mb-2 text-muted sub-text">12:00-1:00pm</h6>
+              <p class="card-text description">Some quick example text to explain the gist of the event request content.</p>
+              <p class="card-text icon users">8 &#160;</p>
+              <a href="#" class="card-link link-text">Create Order</a>
+              <a href="#" class="card-link link-text">Add Poll</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

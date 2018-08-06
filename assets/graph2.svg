@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="556px" height="230px" viewBox="0 0 556 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-783.000000, -258.000000)">
+            <g id="Summ" transform="translate(63.000000, 227.000000)">
+                <g id="Group-3" transform="translate(721.000000, 31.000000)">
+                    <rect id="Rectangle-14" stroke="#F5F5F5" fill="#FFFFFF" fill-rule="nonzero" x="242.5" y="0.5" width="312" height="229"></rect>
+                    <g id="Group" transform="translate(0.000000, 15.000000)" fill-rule="nonzero">
+                        <circle id="Oval" fill="#F0787A" opacity="0.661886161" cx="100" cy="100" r="100"></circle>
+                        <path d="M50,250 C105.228475,250 150,205.228475 150,150 C150,94.771525 105.228475,50 50,50 C50,50 50,94.771525 50,150 C50,205.228475 50,250 50,250 Z" id="Oval-Copy-2" stroke="#4A4A4A" fill="#8D6777" transform="translate(100.000000, 150.000000) rotate(90.000000) translate(-100.000000, -150.000000) "></path>
+                        <path d="M100,200 C155.228475,200 200,155.228475 200,100 C200,44.771525 155.228475,0 100,0 C100,0 100,44.771525 100,100 C100,155.228475 100,200 100,200 Z" id="Oval-Copy" fill="#272C4A"></path>
+                    </g>
+                    <g id="Group-2" transform="translate(279.000000, 40.000000)">
+                        <circle id="Oval-2" fill="#272C4A" fill-rule="nonzero" cx="6.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-2-Copy" fill="#8D6777" fill-rule="nonzero" cx="6.5" cy="66.5" r="6.5"></circle>
+                        <circle id="Oval-2-Copy-2" fill="#F5A5A7" fill-rule="nonzero" cx="6.5" cy="125.5" r="6.5"></circle>
+                        <text id="Finance-(50%)" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#4A4A4A">
+                            <tspan x="24" y="16">Finance</tspan>
+                            <tspan x="24" y="35">(50%)</tspan>
+                        </text>
+                        <text id="Business-Development" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#4A4A4A">
+                            <tspan x="24" y="70">Business Development</tspan>
+                            <tspan x="24" y="89">(25%)</tspan>
+                        </text>
+                        <text id="Other-(25%)" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#4A4A4A">
+                            <tspan x="24" y="129">Other</tspan>
+                            <tspan x="24" y="148">(25%)</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
